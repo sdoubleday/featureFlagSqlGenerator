@@ -57,12 +57,12 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="featureFlags" />
+    <Folder Include="featureFlags_Functions" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="featureFlags\featureFlags.sql" />
     <Build Include="featureFlags\featureFlagsConfig.sql" />
-    <Build Include="featureFlags\Get_OptionalFeature1_ufn.sql" />
-    <Build Include="featureFlags\Get_OptionalFeature2_ufn.sql" />
     <Build Include="featureFlags\featureFlagsConfig_Setup_usp.sql" />
+    <Build Include="featureFlags_Functions\Get_OptionalFeature1_ufn.sql" />
   </ItemGroup>
 </Project>
